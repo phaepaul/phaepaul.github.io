@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phaepaul.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/phaepaul.github.io/static/js/main.83125ab5.chunk.js",
+    "main.js.map": "/phaepaul.github.io/static/js/main.83125ab5.chunk.js.map",
+    "runtime-main.js": "/phaepaul.github.io/static/js/runtime-main.2ede016e.js",
+    "runtime-main.js.map": "/phaepaul.github.io/static/js/runtime-main.2ede016e.js.map",
+    "static/js/2.e3641b91.chunk.js": "/phaepaul.github.io/static/js/2.e3641b91.chunk.js",
+    "static/js/2.e3641b91.chunk.js.map": "/phaepaul.github.io/static/js/2.e3641b91.chunk.js.map",
+    "static/js/3.ade9bac6.chunk.js": "/phaepaul.github.io/static/js/3.ade9bac6.chunk.js",
+    "static/js/3.ade9bac6.chunk.js.map": "/phaepaul.github.io/static/js/3.ade9bac6.chunk.js.map",
+    "index.html": "/phaepaul.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/phaepaul.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e3641b91.chunk.js.LICENSE.txt": "/phaepaul.github.io/static/js/2.e3641b91.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/phaepaul.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ede016e.js",
+    "static/js/2.e3641b91.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.83125ab5.chunk.js"
+  ]
+}
