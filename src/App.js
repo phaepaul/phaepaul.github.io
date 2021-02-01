@@ -7,8 +7,10 @@ function App() {
   return (
     <div id='Base'>
       <Header />
-      <ProjectList />
-      <Footer />
+      {//<ProjectList />
+      }
+      {//<Footer />
+      }
     </div>
   );
 }

@@ -16,6 +16,7 @@ const ProjectList = (props) => {
         "https://api.github.com/users/phaepaul/repos"
       );
       setProjects(response.data);
+      console.log(response.data);
     } catch (ex) {
       console.log(ex);
       console.log("Could not get current github projects!");
@@ -24,8 +25,8 @@ const ProjectList = (props) => {
   return (
     <div className="projectList">
       {projects.length > 0
-        ? projects.map((project) => {
-            return(<Project name={project.name} />)
+        ? projects.map((project, i) => {
+            return(<Project project={project} key={i}/>)
           })
         : ""}
     </div>

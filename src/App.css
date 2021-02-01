@@ -1,5 +1,41 @@
 #Base {
   display: flex;
   flex-direction: column;
+  background-color: #131516;
+  /* color: #f0ead6; */
+  font-family: monospace;
+  width: 100vw;
 }
-/* background-color: #282c34; */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+
+img {
+  image-rendering: crisp-edges;
+}
+.dropdown-item {
+  background: inherit;
+  padding: .2rem;
+}
+
+.dropdown-menu {
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: .875rem;
+  height: 100%;
+}
+
+.flex { display: flex; }

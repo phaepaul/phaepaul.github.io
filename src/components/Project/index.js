@@ -1,13 +1,12 @@
-import React from 'react';
-import './styles.scss';
+import React from "react";
+import "./styles.scss";
 
 const Project = (props) => {
   return (
-    <div className="project">
-      {props.name}
-    </div>
-  )
-}
-
+    <a href={props.project.html_url}>
+      <div className="project">{props.project.name}</div>
+    </a>
+  );
+};
 
 export default Project;
