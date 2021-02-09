@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./styles.css";
 import { Dropdown } from "react-bootstrap";
 import heart from '../../images/heart.png'
 import Clock from '../Clock'

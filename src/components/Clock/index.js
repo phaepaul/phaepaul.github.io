@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles.scss";
+import "./styles.css";
 
 const Clock = () => {
   const [time, setTime] = useState(new Date());
@@ -26,7 +26,7 @@ const Clock = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex" id="clock">
       {time.toLocaleDateString('en-US', dateOptions)}
       &nbsp;
       {time.toLocaleTimeString('en-US', timeOptions)}

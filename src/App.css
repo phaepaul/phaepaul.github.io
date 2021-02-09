@@ -1,10 +1,20 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+}
+
 #Base {
   display: flex;
   flex-direction: column;
   background-color: #131516;
-  /* color: #f0ead6; */
+  color: #f0ead6;
   font-family: monospace;
   width: 100vw;
+  height: 100%;
 }
 
 a {
@@ -21,21 +31,28 @@ a {
 img {
   image-rendering: crisp-edges;
 }
+
 .dropdown-item {
   background: inherit;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 .dropdown-menu {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
 
 button {
-  font-size: .875rem;
+  font-size: 0.875rem;
   height: 100%;
 }
 
-.flex { display: flex; }
+/* Helpers */
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}

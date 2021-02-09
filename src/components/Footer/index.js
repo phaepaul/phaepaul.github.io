@@ -1,11 +1,14 @@
 import React from 'react';
-import './styles.scss';
+import './styles.css';
 
 const Footer = (props) => {
   return (
     <div className="foot">
       <span>
-        About
+        <a href="#"> About </a>
+      </span>
+      <span>
+        Social Media
       </span>
     </div>
   )

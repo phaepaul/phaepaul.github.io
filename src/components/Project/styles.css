@@ -1,0 +1,14 @@
+.project {
+  padding: .25rem;
+  border: 1px dotted pink;
+}
+
+.languages {
+  align-self: center;
+  padding: .05rem;
+}
+
+.lang {
+  border: 1px dotted teal;
+  padding: 5px;
+}
