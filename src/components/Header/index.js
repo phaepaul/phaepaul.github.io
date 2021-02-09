@@ -9,8 +9,8 @@ const Header = (props) => {
     <div className="header">
       <div className="flex">
       <Dropdown>
-        <Dropdown.Toggle id="dropdown-basic">
-          <img src={heart} />
+        <Dropdown.Toggle className="header-drop">
+          <img src={heart} style={{ paddingTop: '5px' }} />
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
@@ -19,14 +19,13 @@ const Header = (props) => {
       </Dropdown>
 
       <Dropdown>
-        <Dropdown.Toggle id="dropdown-basic">
-          File
+        <Dropdown.Toggle className="header-drop">
+          file
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
           <Dropdown.Item>LinkedIn</Dropdown.Item>
           <Dropdown.Item></Dropdown.Item>
-          <Dropdown.Item>Dog</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       </div>

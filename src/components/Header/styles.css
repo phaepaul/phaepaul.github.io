@@ -3,6 +3,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 .5rem;
   background-image: url(../../images/bars.png)
+}
+
+.header-drop {
+  background-color: pink;
+  border: 1px dotted teal;
 }

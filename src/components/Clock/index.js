@@ -27,7 +27,7 @@ const Clock = () => {
 
   return (
     <div className="flex" id="clock">
-      {time.toLocaleDateString('en-US', dateOptions)}
+      {time.toLocaleDateString('en-US', dateOptions).toLowerCase()}
       &nbsp;
       {time.toLocaleTimeString('en-US', timeOptions)}
     </div>

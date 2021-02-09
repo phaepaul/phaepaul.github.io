@@ -33,8 +33,6 @@ img {
 }
 
 .dropdown-item {
-  background: inherit;
-  padding: 0.2rem;
 }
 
 .dropdown-menu {
@@ -42,6 +40,7 @@ img {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
+  background: #131516;
 }
 
 button {
