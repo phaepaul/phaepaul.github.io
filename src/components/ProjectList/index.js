@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import database from "../../database.json"
 import "./styles.css";
 import Project from "../Project";
 const axios = require("axios");
@@ -7,7 +8,8 @@ const ProjectList = (props) => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    getData();
+    setProjects(database);
+    console.log(database);
   }, []);
 
   const getData = async () => {
@@ -22,10 +24,11 @@ const ProjectList = (props) => {
       console.log("Could not get current github projects!");
     }
   };
+
   return (
     <div className="projectList">
-      {projects.length > 0
-        ? projects.map((project, i) => {
+      {database.length > 0
+        ? database.map((project, i) => {
             return(<Project project={project} key={i}/>)
           })
         : ""}

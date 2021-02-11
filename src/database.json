@@ -1,0 +1,98 @@
+[
+  {
+    "name": "actual",
+    "framework": "Sinatra",
+    "languages": ["ruby", "html", "sass"],
+    "notes": "Built for a friend.",
+    "tags": ["personal", "public"]
+  },
+
+  {
+    "name": "blank_94",
+    "framework": "Adobe Dreamweaver",
+    "languages": ["html", "css"],
+    "notes": "Created as part of a project to quickly demo some styles.",
+    "tags": ["personal", "public"]
+  },
+
+  {
+    "name": "CastleCrashers",
+    "framework": "Unity",
+    "languages": ["C#"],
+    "notes": "Created for a game development course.",
+    "tags": ["educational", "public"]
+  },
+
+  {
+    "name": "fortune-telling",
+    "framework": "Ruby on Rails",
+    "languages": ["ruby", "html", "sass"],
+    "notes": "Created for a class as part of an assignment exploring randomness.",
+    "tags": ["educational", "public"]
+  },
+
+  {
+    "name": "Freeder_Rails",
+    "framework": "Ruby on Rails",
+    "languages": ["ruby", "html", "css"],
+    "notes": "Forked as part of an interview.",
+    "tags": ["professional", "public"]
+  },
+
+  {
+    "name": "ATOMFreeder",
+    "framework": "Python Shell",
+    "languages": ["python"],
+    "notes": "Written for an interview.",
+    "tags": ["professional", "public"]
+  },
+
+  {
+    "name": "phaepaul.github.io",
+    "framework": "React",
+    "languages": ["html", "css", "javascript"],
+    "notes": "This site.",
+    "tags": ["personal", "public"]
+  },
+
+  {
+    "name": "Ticketfire",
+    "framework": "Ruby On Rails, React",
+    "languages": [
+      "haml",
+      "sass",
+      "html",
+      "javascript",
+      "ruby",
+      "SQL",
+      "MSSQL",
+      "rspec"
+    ],
+    "notes": "Ticketfire website and internal tools maintained and developed with small team.",
+    "tags": ["professional", "private"]
+  },
+
+  {
+    "name": "Seatcycle",
+    "framework": "Ruby On Rails",
+    "languages": ["html", "javascript", "ruby", "SQL"],
+    "notes": "Seatcycle website and internal tools",
+    "tags": ["professional", "private"]
+  },
+
+  {
+    "name": "Frictionless Mobile credit",
+    "framework": "Ruby On Rails",
+    "languages": ["ruby"],
+    "notes": "No backend integration for client's credit approval platform.",
+    "tags": ["professional", "private"]
+  },
+
+  {
+    "name": "LoyaltyGate",
+    "framework": "Cordova",
+    "languages": ["javascript"],
+    "notes": "Event branding and messaging application",
+    "tags": ["professional", "private"]
+  }
+]
