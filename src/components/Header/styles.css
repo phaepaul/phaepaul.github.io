@@ -7,6 +7,6 @@
 }
 
 .header-drop {
-  background-color: pink;
-  border: 1px dotted teal;
+  background-color: var(--jet);
+  border: 1px dotted var(--salmon);
 }

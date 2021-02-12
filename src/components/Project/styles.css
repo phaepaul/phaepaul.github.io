@@ -1,6 +1,7 @@
 .project {
   padding: .25rem;
-  border: 1px dotted pink;
+  border: 2px dotted var(--yellow);
+  transition: 1s;
 }
 
 .languages {
@@ -9,6 +10,22 @@
 }
 
 .lang {
-  border: 1px dotted teal;
+  border: 1px dotted var(--salmon);
   padding: 5px;
+}
+
+.link {
+  width: 15px;
+}
+
+.desc {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.expanded {
+  padding-top: 5px;
+  max-height: 100vh;
+  transition: all 0.25s ease-out;
 }
