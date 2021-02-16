@@ -18,6 +18,7 @@ body {
 #root {
   background: #000 url(./images/sink.png) 0 0 repeat;
   background-color: var(--jet);
+  position: relative;
 }
 
 #root::before {
