@@ -1,7 +1,6 @@
 .project {
   padding: .5rem;
-  border: 2px dotted var(--yellow);
-  border-left: 5px solid var(--yellow);
+  border: 1px solid var(--yellow);
   transition: 1s;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .tag {
-  border: 1px dotted var(--salmon);
+  border: 1px solid var(--salmon);
   padding: 5px;
 }
 
@@ -22,6 +21,7 @@
 
 .link {
   width: 15px;
+  padding-top: 5px;
 }
 
 .desc {

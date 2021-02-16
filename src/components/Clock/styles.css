@@ -1,3 +1,6 @@
 #clock {
   margin-right: 1rem;
+  border: 1px solid var(--white);
+  background: var(--jet);
+  padding: .5rem;
 }

@@ -4,29 +4,55 @@
   --honeydew: #e1efe6;
   --salmon: #f39a9d;
   --jet: #2f2f2f;
-}
-
-html {
-  height: 100%;
+  --grey: #555555;
+  --white: #ffeeef;
 }
 
 body {
-  height: 100%;
   display: flex;
-  font-family: 'Anonymous Pro', monospace;
+  font-family: "Anonymous Pro", monospace;
   color: var(--honeydew);
   /*font-size: .875rem; */
-  background-color: var(--black);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans', monospace;
+#root {
+  background: #000 url(./images/sink.png) 0 0 repeat;
+  background-color: var(--jet);
+}
+
+#root::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.2)
+    );
+  z-index: 10;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Iceland", monospace;
 }
 
 #Base {
   display: flex;
   flex-direction: column;
-  background-color: var(--black);
   color: var(--honeydew);
   font-family: monospace;
   width: 100vw;
@@ -113,6 +139,7 @@ button {
 .pr-1 {
   padding-right: 0.25rem;
 }
+
 .pl-1 {
   padding-left: 0.25rem;
 }

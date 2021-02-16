@@ -18,7 +18,7 @@ const Project = (props) => {
     >
       <div className="project flex space-between">
         <div className="align-center flex">
-          <h5>{props.project.name}</h5>
+          <h2>{props.project.name}</h2>
           {props.project.url !== "" && (
             <a href={props.project.url}>
               <img src={link} className="pl-1 link" />
