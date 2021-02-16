@@ -1,0 +1,7 @@
+.intro {
+  margin: 1rem;
+}
+
+.intro > h4 {
+  color: var(--warm-black);
+}
