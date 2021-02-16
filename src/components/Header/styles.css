@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-image: url(../../images/bars.png)
+  background-image: url(../../images/bars.png);
+  background-color: var(--jet);
 }
 
 .header-drop {

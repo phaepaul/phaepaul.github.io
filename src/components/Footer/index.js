@@ -5,10 +5,7 @@ const Footer = (props) => {
   return (
     <div className="foot">
       <span>
-        <a href="#"> About </a>
-      </span>
-      <span>
-        Social Media
+        <a href="#"> Made with love and React in 2021. </a>
       </span>
     </div>
   )

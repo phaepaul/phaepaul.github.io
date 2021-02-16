@@ -1,19 +1,26 @@
 :root {
- --yellow: #EFCB68;
- --black: #000411;
- --honeydew: #E1EFE6;
- --salmon: #F39A9D;
- --jet: #2F2F2F;
+  --yellow: #efcb68;
+  --black: #000411;
+  --honeydew: #e1efe6;
+  --salmon: #f39a9d;
+  --jet: #2f2f2f;
 }
 
-  html {
+html {
   height: 100%;
 }
 
 body {
   height: 100%;
   display: flex;
-  font-family: monospace;
+  font-family: 'Anonymous Pro', monospace;
+  color: var(--honeydew);
+  /*font-size: .875rem; */
+  background-color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', monospace;
 }
 
 #Base {
@@ -23,7 +30,7 @@ body {
   color: var(--honeydew);
   font-family: monospace;
   width: 100vw;
-  height: 100%;
+  height: auto;
 }
 
 a {
@@ -33,7 +40,6 @@ a {
 
 .btn {
   border-radius: 0;
-  border: 1px solid var(--black);
   padding: 0 5px;
   border: 1px dotted var(--yellow);
 }
@@ -53,6 +59,7 @@ img {
 button {
   font-size: 0.875rem;
   height: 100%;
+  color: var(--honeydew);
 }
 
 /* Helpers */
@@ -84,7 +91,7 @@ button {
 }
 
 .modal-content {
-  background-color: #131516;
+  background-color: var(--black);
   margin: 15% auto;
   color: white;
   padding: 20px;
@@ -95,19 +102,19 @@ button {
 .modal-header {
   display: flex;
   justify-content: space-between;
-  padding: .25rem;
+  padding: 0.25rem;
   border-bottom: 1px dotted var(--yellow);
 }
 
 .modal-body {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .pr-1 {
-  padding-right: .25rem;
+  padding-right: 0.25rem;
 }
 .pl-1 {
-  padding-left: .25rem;
+  padding-left: 0.25rem;
 }
 
 .d-none {
