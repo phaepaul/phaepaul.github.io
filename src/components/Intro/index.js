@@ -5,7 +5,7 @@ const Intro = (props) => {
   return (
     <div className="intro">
       <div>
-        <div className="subtitle">Hi, my name is</div>
+        <div className="subtitle">Hello, my name is</div>
         <h3 className="intro-header">Phaedra Paul.</h3>
         <p>I build things for the web.</p>
       </div>

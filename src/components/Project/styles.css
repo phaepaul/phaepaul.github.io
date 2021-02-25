@@ -4,7 +4,7 @@
 
 .project-name {
   margin: 0;
-  color: var(--light-slate);
+  color: var(--slate);
   display: flex;
   align-items: center;
 }
@@ -32,8 +32,8 @@
 }
 
 .highlight {
-  text-decoration: underline;
-  color: var(--green);
+  text-decoration: dotted;
+  color: var(--gold);
 }
 
 .desc-content > small {
@@ -44,7 +44,7 @@
 
 .tag {
   font-family: var(--font-mono);
-  border: 1px solid var(--green);
+  border: 1px solid var(--gold);
   font-size: var(--fz-xs);
   padding: .25rem;
 }

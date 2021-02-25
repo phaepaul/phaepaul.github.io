@@ -3,9 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--warm-black);
   border-bottom: 1px solid var(--white);
-  background: var(--warm-black) url(../../images/sink.png) 0 0 repeat;
 }
 
 .btn-header {
