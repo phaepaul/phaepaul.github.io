@@ -1,53 +1,30 @@
 .project {
-  padding: 1rem;
-  border: 1px solid var(--orange);
-  transition: 1s;
+  padding: 1rem 0;
 }
 
 .project-name {
   margin: 0;
-  color: var(--white);
+  color: var(--light-slate);
+  display: flex;
+  align-items: center;
 }
 
-.project-name > .expanded {
-  text-decoration: underline;
-}
-
-.languages {
-  align-self: center;
-  padding: .05rem;
-}
-
-.tag {
-  border: 1px solid var(--brown);
-  padding: 5px;
-  background-color: var(--jet);
-}
-
-.lang-tag {
-  background-color: var(--jet);
-  margin: 5px;
-}
-
-.link {
-  width: 25px;
-  padding-top: 5px;
+.project-name > img {
+  margin-right: .4rem;
 }
 
 .desc {
   overflow: hidden;
-  max-height: 0px;
-  transition: max-height 0.25s all;
+  height: 0px;
+}
+
+.desc.expanded {
+  height: 10rem;
+  transition: height 0.3s linear;
 }
 
 .desc-content > span {
   margin-right: 10px;
-}
-
-.expanded {
-  padding: .5rem;
-  max-height: 100vh;
-  transition: max-height 0.25s ease-out;
 }
 
 .desc-content {
@@ -57,4 +34,17 @@
 .highlight {
   text-decoration: underline;
   color: var(--green);
+}
+
+.desc-content > small {
+  font-family: var(--font-mono);
+  color: var(--lightest-navy);
+  margin-right: .5rem;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  border: 1px solid var(--green);
+  font-size: var(--fz-xs);
+  padding: .25rem;
 }

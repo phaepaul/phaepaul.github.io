@@ -1,25 +1,26 @@
 import React, { useState } from "react";
-import link from "../../images/link.png";
+import folder from "../../images/folder.png";
 import "./styles.css";
 
 const Project = (props) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div
-      key={props.id}
-      onMouseEnter={() => {
-        setShow(true);
-      }}
-      onMouseLeave={() => {
-        setShow(false);
-      }}
-    >
+    <div key={props.id}>
       <div className="project flex space-between">
-        <div className="align-center flex">
+        <div
+          className="align-center flex"
+          onMouseEnter={() => {
+            setShow(true);
+          }}
+          onMouseLeave={() => {
+            setShow(false);
+          }}
+        >
           <a href={props.project.url}>
             <p className={`project-name ${show ? "highlight" : ""}`}>
-              - {props.project.name}
+              <img src={folder} alt="folder" />
+              {props.project.name}
             </p>
           </a>
         </div>
@@ -30,18 +31,18 @@ const Project = (props) => {
           {props.project.notes}
         </div>
         <div className="desc-content">
-          <span>PROJECT TYPE:</span>
+          <small>PROJECT TYPE:</small>
           {props.project.tags.join(", ")}
         </div>
         <div className="desc-content">
           <small>FRAMEWORK:</small>
-          <span className="tag">{props.project.framework}</span>
+          {props.project.framework}
         </div>
         <div className="desc-content">
           <small>LANGUAGES:</small>
           {props.project.languages.map((el, i) => {
             return (
-              <span key={i} className="tag lang-tag">
+              <span key={i} className="tag">
                 {el}
               </span>
             );

@@ -6,7 +6,7 @@
     "languages": ["ruby", "html", "sass"],
     "notes": "Built for a friend.",
     "tags": ["personal", "public"],
-    "url": ""
+    "url": "https://github.com/phaepaul/actual_app"
   },
 
   {
@@ -16,7 +16,8 @@
     "languages": ["html", "css"],
     "notes": "Created as part of a project to quickly demo some styles.",
     "tags": ["personal", "public"],
-    "url": ""
+    "url": "https://github.com/phaepaul/blank_94"
+
   },
 
   {
@@ -66,7 +67,7 @@
     "languages": ["html", "css", "javascript"],
     "notes": "This site.",
     "tags": ["personal", "public"],
-    "url": ""
+    "url": "#"
   },
 
   {
@@ -85,7 +86,7 @@
     ],
     "notes": "Ticketfire website and internal tools maintained and developed with small team.",
     "tags": ["professional", "private"],
-    "url": ""
+    "url": "https://www.ticketfire.com"
   },
 
   {
@@ -95,7 +96,7 @@
     "languages": ["html", "javascript", "ruby", "SQL"],
     "notes": "Seatcycle website and internal tools",
     "tags": ["professional", "private"],
-    "url": ""
+    "url": "https://www.seatcycle.com/"
   },
 
   {

@@ -7,3 +7,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.intro > a {
+  margin-top: 2rem;
+}

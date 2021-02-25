@@ -6,7 +6,7 @@ import ProjectRow from "../ProjectRow";
 const ProjectList = () => {
   return (
     <div id="projects">
-      <h4> # Recent projects </h4>
+      <h4>Recent Projects </h4>
       <div className="container">
         {database.length > 0
           ? database.map((project) => {
