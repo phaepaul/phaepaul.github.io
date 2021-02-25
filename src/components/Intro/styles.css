@@ -1,7 +1,9 @@
 .intro {
   margin: 1rem;
-}
-
-.intro > h4 {
-  color: var(--warm-black);
+  padding: 1rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }

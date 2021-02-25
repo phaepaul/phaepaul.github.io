@@ -1,4 +1,3 @@
-.projectList {
-  margin: 1rem;
-  color: var(--honeydew);
+#projects {
+  margin-top: 2rem;
 }

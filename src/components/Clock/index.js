@@ -13,24 +13,22 @@ const Clock = () => {
   });
 
   const dateOptions = {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
+    year: "numeric",
+    month: "short",
+    day: "numeric",
   };
 
   const timeOptions = {
-    hour12: false,
-    hour: 'numeric',
-    minute: '2-digit',
-    second: '2-digit',
+    hour12: true,
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
   };
 
   return (
-    <div className="flex" id="clock">
-      {time.toLocaleDateString('en-US', dateOptions).toLowerCase()}
-      &nbsp;
-      {time.toLocaleTimeString('en-US', timeOptions)}
-    </div>
+    <button id="clock">
+      {`${time.toLocaleDateString("en-US", dateOptions)} at ${time.toLocaleTimeString("en-US", timeOptions)}`}
+    </button>
   );
 };
 

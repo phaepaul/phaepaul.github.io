@@ -1,37 +1,50 @@
 import React from "react";
 import "./styles.css";
-import { Dropdown } from "react-bootstrap";
 import heart from "../../images/heart.png";
-import globe from "../../images/globe.png";
+import gl from "../../images/gitlab.png";
+import lin from "../../images/linkedin.png";
+import gh from "../../images/github.png";
+import folder from "../../images/folder.png";
 import Clock from "../Clock";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="flex">
-        <Dropdown>
-          <Dropdown.Toggle className="header-drop">
-            <img src={heart} style={{ paddingTop: "5px" }} />
-          </Dropdown.Toggle>
+    <div className="header flex">
+      <div className="flex" id="toolbar">
+        <a href="#about">
+          <button className="flex align-center btn-header">
+            <img src={heart} alt="heart" />
+            about
+          </button>
+        </a>
 
-          <Dropdown.Menu>
-            <Dropdown.Item>About this computer</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+        <a href="#projects">
+          <button className="flex align-center btn-header">
+            <img src={folder} alt="folder" />
+            projects
+          </button>
+        </a>
 
-        <Dropdown>
-          <Dropdown.Toggle className="header-drop flex align-center">
-            <img src={globe} />
-            world wide web
-          </Dropdown.Toggle>
+        <a href="https://www.linkedin.com/in/phaedra-paul">
+          <button className="btn-header">
+            <img src={lin} alt="linkedin" />
+            linkedin
+          </button>
+        </a>
 
-          <Dropdown.Menu>
-            <Dropdown.Item href="https://www.linkedin.com/in/phaedra-paul/">
-              LinkedIn
-            </Dropdown.Item>
-            <Dropdown.Item></Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+        <a href="https://github.com/phaepaul/">
+          <button className="btn-header">
+            <img src={gh} alt="github" />
+            github
+          </button>
+        </a>
+
+        <a href="https://gitlab.com/_phaedra">
+          <button className="btn-header">
+            <img src={gl} alt="gitlab" />
+            gitlab
+          </button>
+        </a>
       </div>
 
       <Clock />

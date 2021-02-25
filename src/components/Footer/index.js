@@ -1,12 +1,18 @@
 import React from 'react';
 import './styles.css';
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-    <div className="foot">
-      <span>
-        <a href="#"> Made with love and React in 2021. </a>
+    <div id="foot">
+      <span className="subtitle">
+        <a href="#">Thanks for reading!</a>
       </span>
+      <div>I'm currently looking for new opportunities.</div>
+      <a href="mailto:phaedra@phaedra.net">
+        <button>
+          Contact
+        </button>
+      </a>
     </div>
   )
 }

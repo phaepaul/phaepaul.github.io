@@ -1,7 +1,9 @@
-.foot {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: var(--jet);
+#foot {
+  margin: 0 .75rem;
+  height: 20vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }

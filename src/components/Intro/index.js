@@ -2,12 +2,17 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 
 const Intro = (props) => {
-
   return (
     <div className="intro">
-      <span>Hello, my name is</span>
-      <h4 className="m-0">Phaedra Paul.</h4>
-      <small>I'm a full stack web developer.</small>
+      <div>
+        <div className="subtitle">Hi, my name is</div>
+        <h3 className="intro-header">Phaedra Paul.</h3>
+        <p>I build things for the web.</p>
+      </div>
+
+      <a href="mailto:phaedra@phaedra.net">
+        <button>Get in touch</button>
+      </a>
     </div>
   );
 };

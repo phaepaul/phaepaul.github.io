@@ -14,33 +14,39 @@ const Project = (props) => {
       onMouseLeave={() => {
         setShow(false);
       }}
-      className=""
     >
       <div className="project flex space-between">
         <div className="align-center flex">
-          <h2>{props.project.name}</h2>
-          {props.project.url !== "" && (
-            <a href={props.project.url}>
-              <img src={link} className="pl-1 link" />
-            </a>
-          )}
-        </div>
-        <div className="languages">
-          <span className="tag">{props.project.framework}</span>
+          <a href={props.project.url}>
+            <p className={`project-name ${show ? "highlight" : ""}`}>
+              - {props.project.name}
+            </p>
+          </a>
         </div>
       </div>
       <div className={`desc ${show ? "expanded" : ""}`}>
-        <div className="desc-content">CONTEXT: {props.project.notes}</div>
-        <div className="desc-content"> LANGUAGES:
-        {props.project.languages.map((el, i) => {
-          return (
-            <span key={i} className="tag lang-tag">
-              {el}
-            </span>
-          );
-        })}
+        <div className="desc-content">
+          <small>CONTEXT:</small>
+          {props.project.notes}
         </div>
-        <div className="desc-content">PROJECT TYPE: {props.project.tags.join(", ")}</div>
+        <div className="desc-content">
+          <span>PROJECT TYPE:</span>
+          {props.project.tags.join(", ")}
+        </div>
+        <div className="desc-content">
+          <small>FRAMEWORK:</small>
+          <span className="tag">{props.project.framework}</span>
+        </div>
+        <div className="desc-content">
+          <small>LANGUAGES:</small>
+          {props.project.languages.map((el, i) => {
+            return (
+              <span key={i} className="tag lang-tag">
+                {el}
+              </span>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

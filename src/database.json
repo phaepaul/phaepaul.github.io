@@ -71,7 +71,7 @@
 
   {
     "id": 7,
-    "name": "Ticketfire",
+    "name": "TicketFire",
     "framework": "Ruby On Rails, React",
     "languages": [
       "haml",

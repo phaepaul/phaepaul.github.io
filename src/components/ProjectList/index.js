@@ -1,23 +1,19 @@
-import React, { useEffect, useState } from "react";
-import database from "../../database.json"
+import React from "react";
+import database from "../../database.json";
 import "./styles.css";
-import Project from "../Project";
-const axios = require("axios");
+import ProjectRow from "../ProjectRow";
 
-const ProjectList = (props) => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    setProjects(database);
-  }, []);
-
+const ProjectList = () => {
   return (
-    <div className="projectList">
-      {database.length > 0
-        ? database.map((project, i) => {
-            return(<Project project={project} key={i}/>)
-          })
-        : ""}
+    <div id="projects">
+      <h4> # Recent projects </h4>
+      <div className="container">
+        {database.length > 0
+          ? database.map((project) => {
+               return <ProjectRow project={project} />;
+            })
+          : "Something went wrong."}
+      </div>
     </div>
   );
 };
