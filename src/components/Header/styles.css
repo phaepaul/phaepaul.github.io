@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--white);
+}
+
+.btn-header {
+  font-weight: bold;
+  border: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.btn-header > img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+#toolbar > a:hover {
+  text-decoration: none;
+}

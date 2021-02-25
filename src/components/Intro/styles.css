@@ -1,0 +1,19 @@
+.intro {
+  margin: 1rem;
+  padding: 1rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro > a {
+  margin-top: 2rem;
+}
+
+.intro-header {
+  margin: 0;
+  font-size: clamp(40px, 8vw, 80px);
+}
+

@@ -1,0 +1,121 @@
+[
+  {
+    "id": 0,
+    "name": "actual_app",
+    "framework": "Sinatra",
+    "languages": ["ruby", "html", "sass"],
+    "notes": "Built for a friend.",
+    "tags": ["personal", "public"],
+    "url": "https://github.com/phaepaul/actual_app"
+  },
+
+  {
+    "id": 1,
+    "name": "blank_94",
+    "framework": "Adobe Dreamweaver",
+    "languages": ["html", "css"],
+    "notes": "Created as part of a project to quickly demo some styles.",
+    "tags": ["personal", "public"],
+    "url": "https://github.com/phaepaul/blank_94"
+
+  },
+
+  {
+    "id": 2,
+    "name": "CastleCrashers",
+    "framework": "Unity",
+    "languages": ["C#"],
+    "notes": "Created for a game development course.",
+    "tags": ["educational", "public"],
+    "url": "https://github.com/phaepaul/CastleCrashers"
+  },
+
+  {
+    "id": 3,
+    "name": "fortune-telling",
+    "framework": "Ruby on Rails",
+    "languages": ["ruby", "html", "sass"],
+    "notes": "Created for a class as part of an assignment exploring randomness.",
+    "tags": ["educational", "public"],
+    "url": "https://github.com/phaepaul/fortune-telling"
+  },
+
+  {
+    "id": 4,
+    "name": "Freeder_Rails",
+    "framework": "Ruby on Rails",
+    "languages": ["ruby", "html", "css"],
+    "notes": "Forked as part of an interview.",
+    "tags": ["professional", "public"],
+    "url": ""
+  },
+
+  {
+    "id": 5,
+    "name": "ATOMFreeder",
+    "framework": "Python Shell",
+    "languages": ["python"],
+    "notes": "Written for an interview.",
+    "tags": ["professional", "public"],
+    "url": "https://github.com/phaepaul/ATOMFreeder"
+  },
+
+  {
+    "id": 6,
+    "name": "phaepaul.github.io",
+    "framework": "React",
+    "languages": ["html", "css", "javascript"],
+    "notes": "This site :)",
+    "tags": ["personal", "public"],
+    "url": "#"
+  },
+
+  {
+    "id": 7,
+    "name": "TicketFire",
+    "framework": "Ruby On Rails, React",
+    "languages": [
+      "haml",
+      "sass",
+      "html",
+      "javascript",
+      "ruby",
+      "SQL",
+      "MSSQL",
+      "rspec"
+    ],
+    "notes": "Ticketfire website and internal tools maintained and developed with small team.",
+    "tags": ["professional", "private"],
+    "url": "https://www.ticketfire.com"
+  },
+
+  {
+    "id": 8,
+    "name": "Seatcycle",
+    "framework": "Ruby On Rails",
+    "languages": ["html", "javascript", "ruby", "SQL"],
+    "notes": "Seatcycle website and internal tools",
+    "tags": ["professional", "private"],
+    "url": "https://www.seatcycle.com/"
+  },
+
+  {
+    "id": 9,
+    "name": "Frictionless Mobile Credit",
+    "framework": "Ruby On Rails",
+    "languages": ["ruby"],
+    "notes": "No backend integration for client's credit approval platform.",
+    "tags": ["professional", "private"],
+    "url": ""
+  },
+
+  {
+    "id": 10,
+    "name": "LoyaltyGate",
+    "framework": "Cordova",
+    "languages": ["javascript"],
+    "notes": "Event branding and messaging application",
+    "tags": ["professional", "private"],
+    "url": ""
+  }
+]

@@ -1,0 +1,50 @@
+.project {
+  padding: 1rem 0;
+}
+
+.project-name {
+  margin: 0;
+  color: var(--slate);
+  display: flex;
+  align-items: center;
+}
+
+.project-name > img {
+  margin-right: .4rem;
+}
+
+.desc {
+  overflow: hidden;
+  height: 0px;
+}
+
+.desc.expanded {
+  height: 10rem;
+  transition: height 0.3s linear;
+}
+
+.desc-content > span {
+  margin-right: 10px;
+}
+
+.desc-content {
+  margin: .5rem 0;
+}
+
+.highlight {
+  text-decoration: dotted;
+  color: var(--gold);
+}
+
+.desc-content > small {
+  font-family: var(--font-mono);
+  color: var(--lightest-navy);
+  margin-right: .5rem;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  border: 1px solid var(--gold);
+  font-size: var(--fz-xs);
+  padding: .25rem;
+}
