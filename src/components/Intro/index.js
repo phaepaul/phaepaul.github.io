@@ -7,7 +7,7 @@ const Intro = (props) => {
       <div>
         <div className="subtitle">Hello, my name is</div>
         <h3 className="intro-header">Phaedra Paul.</h3>
-        <p>I build things for the web.</p>
+        <p>I build things for the world wide web.</p>
       </div>
 
       <a href="mailto:phaedra@phaedra.net">
